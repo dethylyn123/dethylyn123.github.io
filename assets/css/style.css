@@ -774,11 +774,11 @@ section {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: rgba(0, 0, 0, 0.228);
+  background-color: rgba(129, 112, 112, 0.228);
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color:#f75170e8;
+  background-color:#ffc107;
 }
 
 /*--------------------------------------------------------------
@@ -807,12 +807,34 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  background-color: #ef233c;
-  color: white;
+  /* background-color: #ef233c; */
+  text-decoration: underline;
+  color: #f48c06;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
   padding: 3px;
 }
+
+/* resume1 */
+.resume1 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #ef233c; */
+  text-decoration: underline;
+  color: #f48c06;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 3px;
+}
+
+/* @media (max-width: 992px) {
+  .resume .resume-item h4 {
+    padding-top: 58px;
+  }
+} */
 
 .resume .resume-item h5 {
   font-size: 16px;
