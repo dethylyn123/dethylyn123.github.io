@@ -967,16 +967,16 @@ section {
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+.portfolio-wrap .portfolio-links a {
+  color: #000000;
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #78d9cd;
+.portfolio-wrap .portfolio-links a:hover {
+  color: #ca3626;
 }
 
 .portfolio .portfolio-wrap:hover::before {
